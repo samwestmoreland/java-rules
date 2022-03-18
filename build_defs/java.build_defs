@@ -24,7 +24,7 @@ def java_library(name:str, srcs:list=None, src_dir:str=None, resources:list=[], 
       test_only (bool): If True, this rule can only be depended on by tests.
       javac_flags (list): List of flags passed to javac.
       labels (list): Additional labels to apply to this rule.
-      toolchain (str): A label identifying a java_toolchain rule which will be used to build this java library.
+      toolchain (str): A label identifying a java_toolchain rule which will be used to build this java library. 
     """
     resources_cmd = 'true'
     if resources:
